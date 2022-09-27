@@ -1,0 +1,6 @@
+.cart {
+    position: sticky;
+    top: 100px;
+    z-index: 999;
+    text-align: left;
+}
