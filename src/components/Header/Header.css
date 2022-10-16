@@ -20,6 +20,16 @@
     color: salmon;
 }
 
+.btn-logout {
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: chartreuse;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 
 @media (max-width: 612px) {
     .header a {

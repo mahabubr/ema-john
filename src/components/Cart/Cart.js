@@ -3,7 +3,7 @@ import './Cart.css'
 
 const Cart = (props) => {
 
-    const { cart, clearCart } = props
+    const { cart, clearCart, children } = props
 
     let total = 0;
     let shipping = 0;
@@ -27,6 +27,7 @@ const Cart = (props) => {
             <p>Tax : {tax}</p>
             <h4>Grand Total : {grandTotal}</h4>
             <button onClick={clearCart}>Clear Cart</button>
+            {children}
         </div>
     );
 };
